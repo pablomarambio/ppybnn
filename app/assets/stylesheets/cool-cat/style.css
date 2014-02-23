@@ -4,22 +4,22 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
-	color: #3C1220;
+	color: #333333;
 }
 h1 {
-	color: #B4B2AE;
+	color: #FE7B02;
 }
 h2, h3 {
-	color: #ffa51f;
+	color: #FE7B02;
 }
 img {
 	max-width: 100%;
 }
 a {
-	color: #ffa51f;
+	color: #FE7B02;
 }
 a:link {
-	color: #ffa51f;
+	color: #FE7B02;
 	text-decoration: none;
 }
 a:hover {
@@ -31,7 +31,7 @@ a:visited {
 
 .destacar {
 	font-style: normal;
-	color: #ffa51f;
+	color: #FFEE1B;
 }
 
 
@@ -49,7 +49,7 @@ a:visited {
 }
 
 .flash div.error {
-	background-color: #ffa51f;
+	background-color: #FE7B02;
 }
 
 .flash div.notice {
@@ -65,8 +65,8 @@ a:visited {
 	top:0px;
 	width:100%; 
 	height:auto;
-	background-color:#ffffff;
-	border-bottom: solid 2px #ffa51f;
+	background-image:url('/assets/bg-chalkboard.jpg');
+	border-bottom: solid 2px #FE7B02;
 	z-index:100;
 }
 
@@ -122,7 +122,7 @@ a:visited {
 
 .navigation .active{
 	cursor:pointer;
-	color: #ffa51f;
+	color: #FE7B02;
 	font-weight:bold;
 }
 
@@ -161,7 +161,7 @@ a:visited {
 
 #slide-home{
 	margin-top: 40px;
-	background-image:url('/assets/bg-madera.jpg');
+	background-image:url('/assets/bg-mattress-and-teddy.jpg');
 	padding: 150px 0;
 }
 
@@ -182,6 +182,9 @@ a:visited {
 	background-color: #f2f2f2;
 	padding: 40px 40px 5px 40px;
 	margin-top: 2em;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 .event h2,
@@ -192,12 +195,10 @@ a:visited {
 
 .event h2 {
 	color: #3C1220;	
-	text-shadow: 2px 2px 2px #B4B2AE;
 }
 
 .event h3 {
 	font-weight: normal;
-	color: #B4B2AE;
 	margin-top: 0;
 }
 
@@ -211,7 +212,6 @@ a:visited {
 
 .event .bottomline span {
 	display: inline-block;
-	font-size: 2em;
 	line-height: 1em;
 	vertical-align: middle;
 }
@@ -244,7 +244,7 @@ a.avisenme {
 	margin-top: 40px;
 	background-image:url('http://theuptownsocial.com/wp-content/uploads/2012/03/wine-bottles-web.jpg');
 	padding: 150px 0 200px 0;
-	color: #B4B2AE;
+	color: #FFEE1B;
 }
 
 #slide-event img {
@@ -310,7 +310,7 @@ a.avisenme {
 }
 
 .demo-tags a {
-  background: #B4B2AE;
+  background: #FFEE1B;
   color: #fff;
   font-size: 40px;
   text-decoration: none;
@@ -329,7 +329,7 @@ a.avisenme {
   width: 0;
   height: 0;
   border-top: 45px solid transparent;
-  border-left: 45px solid #B4B2AE;
+  border-left: 45px solid #FFEE1B;
   border-bottom: 45px solid transparent;
 }
 
@@ -364,20 +364,16 @@ a.avisenme {
 
 #slide4{
 	background-color: black;
+	padding: 150px 0 200px 0;
 }
 
+#slide4 h1{
+	margin-top: 0;
+    color: #FFEE1B; 
+}
 
 .faq {
-	color: #B4B2AE;
-}
-
-.faq div {
-	width: 100%;
-}
-
-.faq h3 {
-	color: #ff351e;
-	text-align: center;
+	color: #FFEE1B;
 }
 
 .faq .circle {
@@ -390,7 +386,7 @@ a.avisenme {
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: #b32515; 
+    background-color: #FE7B02; 
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
     border-radius: 50%;
@@ -406,12 +402,44 @@ a.avisenme {
     text-align:center;
 }
 
+.faq .cont {
+	color: #82980F;
+	background-color: #FE7B02;
+	margin-top: 2em;
+	padding-top: 10px;
+	min-height: 10em;
+	-moz-box-shadow: 1px 1px 2px #FE7B02;
+	-webkit-box-shadow: 1px 1px 2px #FE7B02;
+	box-shadow: 1px 1px 2px #FE7B02;
+	background: linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	background: -moz-linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	background: -webkit-linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.faq .cont p {
+	padding: 0 10px;
+	text-align: center;
+	color: #FFCA40;
+}
+.faq .cont h3 {
+	margin-top: 0;
+	color: #FFEE1B;
+	font-size: 1.5em;
+	text-align: center;
+}
+.faq div {
+	width: 100%;
+}
+
 
 
 /* Slide 5 */
 
 #slide5{
-	border-top: solid 2px #ffa51f;
+	border-top: solid 2px #FE7B02;
 	background-color: #ffffff;
 	padding: 30px 0;
 }
@@ -425,11 +453,12 @@ a.avisenme {
 .member img {
 	width: 200px;
 	border-radius: 50%;
+	border: solid 3px #9ED514;
 }
 
 .member h3 {
 	margin-top: 0;
-	color: #3C1220;
+	color: #FE7B02;
 }
 
 .member p {
@@ -449,7 +478,7 @@ a.avisenme {
 /* Slide: footer */
 
 #slide-footer{
-	background-image:url('/assets/bg-tweed.png');
+	background-image:url('/assets/bg-pillow.jpg');
 	padding: 15px 0;
 }
 
@@ -458,7 +487,7 @@ a.avisenme {
 /* Footer */
 
 .footer {
-	color: #B4B2AE;
+	color: #FFEE1B;
 	font-size: 1.1em;
 	line-height: 2.5em;
 }
@@ -470,6 +499,20 @@ a.avisenme {
 .footer .logo img {
 	margin-top: 2em;
 	max-height: 200px;
+}
+
+.color-box {
+	background-color: #FE7B02;
+	margin-top: 2em;
+	-moz-box-shadow: -1px -1px 1px #424444;
+	-webkit-box-shadow: -1px -1px 1px #424444;
+	box-shadow: -1px -1px 1px #424444;
+	background: linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	background: -moz-linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	background: -webkit-linear-gradient(top, #FE7B02 0%, #7a0909 100%);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 

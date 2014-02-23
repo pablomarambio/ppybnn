@@ -6,9 +6,9 @@
 development:
   adapter: postgresql
   user: postgres
-  password: wilson
+  password: bbbbbb
   host: localhost
-  database: startclass
+  database: ppybnn
   pool: 5
   timeout: 5000
 
@@ -19,8 +19,8 @@ test:
   adapter: postgresql
   host: localhost
   user: postgres
-  password: wilson
-  database: startclass_test
+  password: bbbbbb
+  database: ppybnn_test
   pool: 5
   timeout: 5000
   min_messages: WARNING
@@ -28,8 +28,8 @@ test:
 production:
   adapter: postgresql
   user: postgres
-  password: wilson
+  password: bbbbbb
   host: localhost
-  database: startclass
+  database: ppybnn
   pool: 5
   timeout: 5000

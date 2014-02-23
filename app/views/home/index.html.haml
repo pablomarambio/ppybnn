@@ -1,103 +1,105 @@
 - content_for(:header) do
   #nav
     %ul.navigation
-      %li.dont-show-mobile{"data-slide" => "1"} Home
-      %li{"data-slide" => "2"} Próximas clases
-      %li{"data-slide" => "4"} Cómo funciona
-      %li.dont-show-mobile{"data-slide" => "5"} Equipo
+      %li.dont-show-mobile{"data-slide" => "1"} PPYBNN
+      %li{"data-slide" => "2"} Videos
+      %li{"data-slide" => "4"} Misión
+      %li.dont-show-mobile{"data-slide" => "5"} Nosotros
 
 #slide-home.slide{"data-slide" => "1", "data-stellar-background-ratio" => "0.5"}
   .container.clearfix
     .content.grid_8
       %h1
-        Clases prácticas para
-        %span.destacar tus ideas.
-        O tu dinero de vuelta.
+        Estoy por perder mi virginidad y
+        %span.destacar no tengo idea de nada.
       %p
         %a{ :href => "#", "data-slide" => "2" }
           %img{src: "assets/bn-proximasclases.png"}
 #slide2.slide{"data-slide" => "2", "data-stellar-background-ratio" => "0.5"}
   .container.clearfix
     .content.grid_12.omega
-      %h1 Próximas clases
+      %h1 
+        Aprende a cuidarte con estas
+        %span.destacar clases
     .event.grid_12.omega
       /Aspectos contables
       .date
         %p
-          17
-          %span DIC
+          15
+          %span MAR
       %h2 
-        =link_to "responsabilidades contables y societarias a la hora de emprender un negocio", clase1_path
-      %h3 17 de diciembre de 2013 / 19:30 a 21:30
-      %h3 hotel rugendas, callao 3123, las condes
-      %h3 expositores: julio deramond y alan krausz 
+        Mitos de prevención del embarazo
       %p
-        El objetivo del curso es que el alumno sepa cuáles son los tips más relevantes y/o críticos en cuanto al manejo de la contabilidad al momento de emprender. 
-      %p
-        De manera análoga, también se busca que el alumno maneje un lenguaje básico para relacionarse con un abogado y esté al tanto de los trámites fundamentales.
+        ¿Sabías que hacerlo sin condón puede provocar un embarazo, aún cuando no termines adentro? ¿Sabías que un lavado vaginal no sirve para prevenir el embarazo? Estos y muchos otros consejos en este video de 5 minutos.
+      %h3
+        Este video estará disponible el 15 de Marzo
 
-      %h3 resumen del temario
-      %ul
-        %li Tipos de sociedad y esquemas de participación
-        %li EIRL, LTDA, SpA, SA. Similitudes y diferencias.
-        %li Acuerdos de participación.
-        %li Checklist para constitución de tu sociedad: requisitos, limitaciones, costos y plazos.
-        %li Relación con el SII: obligaciones Mensuales y Anuales, facturación y tratamiento del IVA
-        %li Impuesto de primera y segunda categoría, FUT
       .bottomline
-        %span $20.000
-        = link_to "", clase1_path, class: "inscripcion"
+        %span Te podemos recordar cuando el video esté listo
+        = link_to "", "#", class: "avisenme", :"data-curso" => "mitos"
 
     .event.grid_12.omega
-      /Finanzas para Emprendedores
-      %h2 finanzas para emprendedores (próximamente)
-      %h3 fecha y hora por definir
+      /Aspectos contables
+      .date
+        %p
+          30
+          %span MAR
+      %h2 
+        Cómo usar un condón
       %p
-        Este curso está orientado a emprendedores que requieran (a) evaluar futuros proyectos y (b) presentar proyectos a inversionistas.
+        ¿Sabes desde qué momento hay que usar el condón? ¿Tienes idea de cómo ponerlo? ¿Sabías que si lo pones mal, no funciona? Estos y muchos otros consejos en este video de 5 minutos.
+      %h3
+        Este video estará disponible el 30 de Marzo
+        
       .bottomline
-        %span $20.000
-        = link_to "", "#", class: "avisenme", :"data-curso" => "finanzas para emprendedores"
+        %span Te podemos recordar cuando el video esté listo
+        = link_to "", "#", class: "avisenme", :"data-curso" => "condon"
+
 
     .event.grid_12.omega
-      /Finanzas para Emprendedores
-      %h2 modelos de negocio (próximamente)
-      %h3 fecha y hora por definir
+      /Aspectos contables
+      .date
+        %p
+          15
+          %span ABR
+      %h2 
+        ¿Cómo funcionan las pastillas anticonceptivas?
       %p
-        Este curso busca brindarle a los emprendedores herramientas útiles para descubrir cuál es el modelo de negocios que mejor aplica para sus ideas.
-      %p
-        Tocaremos modelos de negocio comunes para distintos rubros, distintas técnicas y formatos, y cómo pivotear modelos hasta descubrir el apropiado.
+        Tienes idea de qué hacen? ¿Sabías que el primer mes de uso no funcionan?
+      %h3
+        Este video estará disponible el 15 de Abril
+
       .bottomline
-        %span $20.000
-        = link_to "", "#", class: "avisenme", :"data-curso" => "modelos de negocio"
+        %span Te podemos recordar cuando el video esté listo
+        = link_to "", "#", class: "avisenme", :"data-curso" => "condon"
 #slide4.slide{"data-slide" => "4"}
   .container.clearfix
     .grid_12
-      %h1 Cómo funciona
+      %h1 Misión
     .grid_4.faq
       .circle
         %div 1
-      %p
-        %h3 Escogiendo la clase 
-      %p
-        Haz click en "Próximas Clases" y selecciona las que más te interesen. Si no encuentras una clase de tu interés envíanos un mensaje
-        = link_to "haciendo click aquí.", "#", class: "contacto"
+      .cont
+        %h3 Educación
+        %p
+          Queremos entregar la información necesaria a todos los jóvenes que inician su vida sexual.
     .grid_4.faq
       .circle
         %div 2
-      %p
-        %h3 En la sala
-      %p
-        En una clase Startclass no hay bla blá. Como queremos hacer clases prácticas y al grano, éstas son cortas y parten a la hora indicada. Te recomendamos llegar unos 10 minutos antes. Te entregaremos un cuaderno para tomar notas.
+      .cont
+        %h3 Prevención
+        %p
+          Soñamos con un mundo sin embarazos no deseados ni enfermedades de transmisión sexual.
     .grid_4.faq.omega
       .circle
         %div 3
-      %p
-        %h3 Garantía de satisfacción
-      %p
-        Queremos cambiar la forma en la que se hace capacitación en Chile. Si no quedaste conforme con la clase, te devolvemos el 100% de tu dinero. Sin preguntas ni condiciones.
+      .cont
+        %h3 Otra cosa
+        %p
+          Bla, bla, bla.
 
 #slide5.slide{"data-slide" => "5", "data-stellar-background-ratio" => "0.5"}
-  .container.footer.clearfix
+  .container.clearfix
     .grid_12.omega
       %h1 Equipo
     .grid_4.member
@@ -106,33 +108,36 @@
       %p Cientista Político, Economista
       %p Harvard University
     .grid_4.member
-      = image_tag "mugshot-vf.jpg"
-      %h3 Vicente Fernández
-      %p Magister en Innovación
-      %p Universidad Adolfo Ibáñez
+      = image_tag "mugshot-1.jpg"
+      %h3 Doctora rica
+      %p Médico 
+      %p Universidad de Médicos
     .grid_4.member.omega
-      = image_tag "mugshot-sm.jpg"
-      %h3 Sebastián Manhood
-      %p Ingeniero Comercial
-      %p Universidad Adolfo Ibáñez
+      = image_tag "mugshot-cr.jpg"
+      %h3 Cristián Rodríguez
+      %p Ingeniero
+      %p Universidad Católica de Chile
     .grid_4.member
       = image_tag "mugshot-pm.jpg"
       %h3 Pablo Marambio
-      %p Ingeniero Industrial
+      %p Ingeniero
       %p Universidad Católica de Chile
     .grid_4.member
-      = image_tag "mugshot-sg.jpg"
-      %h3 Sebastián Giacoman
+      = image_tag "mugshot-3.jpg"
+      %h3 Otro loco
       %p Ingeniero Comercial
       %p Universidad Adolfo Ibáñez
 
 #slide-footer.slide{"data-slide" => "6", "data-stellar-background-ratio" => "0.5"}
   .container.footer.clearfix
-    .grid_6
+    .grid_6.color-box
       %ul
-        %li= link_to "Formulario de contacto", "#", class: "contacto"
-        %li Los Laureles 1035, Vitacura
+        %li
+          Interesado?
+          = link_to "¡Contáctanos ahora!", "#", class: "contacto"
         %li Términos y condiciones
+        %li
+          %small (c) 2014 Productora Rodríguez-Marambio Ltda.
     .grid_6.logo.omega
       = image_tag "logo-2-1.png"
 
