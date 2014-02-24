@@ -3,7 +3,7 @@
     %ul.navigation
       %li{"data-slide" => "1"} PPYBNN
       %li{"data-slide" => "2"} Videos
-      %li.dont-show-mobile{"data-slide" => "4"} Misión
+      %li.dont-show-mobile{"data-slide" => "4"} Visión
       %li.dont-show-mobile{"data-slide" => "5"} Nosotros
 
 #slide-home.slide{"data-slide" => "1", "data-stellar-background-ratio" => "0.5"}
@@ -75,28 +75,33 @@
 #slide4.slide{"data-slide" => "4"}
   .container.clearfix
     .grid_12
-      %h1 Misión
-    .grid_4.faq
-      .circle
-        %div 1
-      .cont
-        %h3 Educación
-        %p
-          Queremos entregar la información necesaria a todos los jóvenes que inician su vida sexual.
-    .grid_4.faq
-      .circle
-        %div 2
-      .cont
-        %h3 Prevención
-        %p
-          Soñamos con un mundo sin embarazos no deseados ni enfermedades de transmisión sexual.
-    .grid_4.faq.omega
-      .circle
-        %div 3
-      .cont
-        %h3 Otra cosa
-        %p
-          Bla, bla, bla.
+      %h1 Nuestra visión
+    .faq
+      .grid_4.icon
+        %img{src: "assets/icon-education.png"}
+      .grid_8.omega
+        .cont
+          %h2 Educación
+          %p
+            Queremos entregar la información necesaria a todos los jóvenes que inician su vida sexual. Soñamos con un mundo sin embarazos no deseados ni enfermedades de transmisión sexual.
+    .faq.inverted
+      .grid_8
+        .cont
+          %h2 Enfoque
+          %p
+            Las alternativas son fomes, no van al grano, provocan vergüenza ajena, o apuntan a un público mayor.
+      .grid_4.omega
+        .icon
+          %img{src: "assets/icon-group.png"}
+    .faq
+      .grid_4
+        .icon
+          %img{src: "assets/icon-fun.png"}
+      .grid_8.omega
+        .cont
+          %h2 Entretenimiento
+          %p
+            Las clases tienen que ser lo suficientemente entretenidas para bla, bla, bla.
 
 #slide5.slide{"data-slide" => "5", "data-stellar-background-ratio" => "0.5"}
   .container.clearfix

@@ -363,50 +363,27 @@ a.avisenme {
 /* Slide 4 */ 
 
 #slide4{
-	background-color: black;
+	background-color: white;
 	padding: 150px 0 200px 0;
 }
 
 #slide4 h1{
 	margin-top: 0;
-    color: #FFEE1B; 
 }
 
 .faq {
-	color: #FFEE1B;
+	color: #b2b2b2;
 }
 
-.faq .circle {
-    width:50%;
-    margin: 0 auto;
-}
-.faq .circle:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    background-color: #FE7B02; 
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-}
-.faq .circle div {
-    float:left;
-    width:100%;
-    padding-top:50%;
-    font-size: 5em;
-    font-weight: bolder;
-    line-height:1em;
-    margin-top:-0.5em;
-    text-align:center;
+.faq.inverted {
+	text-align: right;
 }
 
 .faq .cont {
-	color: #82980F;
 	background-color: #FE7B02;
-	margin-top: 2em;
+	padding: 0 2em;
 	padding-top: 10px;
+	margin-bottom: 50px;
 	min-height: 10em;
 	-moz-box-shadow: 1px 1px 2px #FE7B02;
 	-webkit-box-shadow: 1px 1px 2px #FE7B02;
@@ -419,29 +396,31 @@ a.avisenme {
 	-webkit-border-radius: 10px;
 }
 
-.faq .cont p {
-	padding: 0 10px;
-	text-align: center;
-	color: #FFCA40;
-}
-.faq .cont h3 {
-	margin-top: 0;
-	color: #FFEE1B;
-	font-size: 1.5em;
-	text-align: center;
-}
-.faq div {
-	width: 100%;
+.faq .cont h2 {
+	margin: 0.5em 0 0 0;
+	padding: 0;
+	color: #FFEE1B; 
 }
 
+.faq .icon img {
+	position: relative;
+	width: 90%;
+	height: 180px;
+	margin: auto auto 50px auto;
+}
 
 
 /* Slide 5 */
 
 #slide5{
 	border-top: solid 2px #FE7B02;
-	background-color: #ffffff;
+	background-color: #3b3b3b;
 	padding: 30px 0;
+	color: white;
+}
+
+#slide5 h1 {
+    color: #FFEE1B; 
 }
 
 .member {
@@ -464,10 +443,6 @@ a.avisenme {
 .member p {
 	margin: 0;
 	text-align: center;
-}
-
-.member {
-
 }
 
 .margin-top {
