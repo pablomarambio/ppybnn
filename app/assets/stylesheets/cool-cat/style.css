@@ -585,6 +585,10 @@ a.avisenme {
 /* Mobile */
 @media screen and (max-width: 480px) {
 
+	.faq .icon img {
+		display:none;
+	}
+
 	div.home-logo-container {
 		width: 60px;
 	}
