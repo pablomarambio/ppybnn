@@ -162,7 +162,8 @@ a:visited {
 
 #slide-home{
 	margin-top: 40px;
-	background-image:url('/assets/bg-mattress-and-teddy.jpg');
+	/* http://static.wixstatic.com/media/62de70_ff0a6905952e4e55a8539b61883d3d8d.jpg */
+	background-image:url('/assets/bg-class2.jpg');
 	padding: 150px 0;
 }
 
