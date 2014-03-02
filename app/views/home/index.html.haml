@@ -10,7 +10,7 @@
   .container.clearfix
     .content.grid_8
       %h1
-        Educación sexual como siempre tuvo que ser.
+        Educación sexual como siempre tuvo que ser
       %p
         %a{ :href => "#", "data-slide" => "2" }
           %img{src: "assets/bn-proximasclases.png"}
@@ -29,13 +29,15 @@
         %h2 
           Mitos de prevención del embarazo
         %p
-          ¿Sabías que hacerlo sin condón puede provocar un embarazo, aún cuando no termines adentro? ¿Sabías que un lavado vaginal no sirve para prevenir el embarazo? Estos y muchos otros consejos en este video de 5 minutos.
+          ¿Sabías que hacerlo sin condón puede provocar un embarazo, aún cuando él no termine adentro? ¿Sabías que un lavado vaginal no sirve para prevenir el embarazo?
         %h3
+          Estos y muchos otros consejos en este video de 5 minutos.
+        %em
           Este video estará disponible el 15 de Marzo
 
         .bottomline
           %span ¿Te avisamos?
-          = link_to "", "#", class: "avisenme", :"data-curso" => "mitos"
+          = link_to "", "#", class: "avisenme", :"data-curso" => "mitos de prevención del embarazo"
 
     .grid_12.omega
       .event
@@ -46,13 +48,15 @@
         %h2 
           Cómo usar un condón
         %p
-          ¿Sabes desde qué momento hay que usar el condón? ¿Tienes idea de cómo ponerlo? ¿Sabías que si lo pones mal, no funciona? Estos y muchos otros consejos en este video de 5 minutos.
+          ¿Sabes desde qué momento hay que usar el condón? ¿Tienes idea de cómo ponerlo? ¿Sabías que si lo pones mal, no funciona? 
         %h3
+          Estos y muchos otros consejos en este video de 5 minutos.
+        %em
           Este video estará disponible el 30 de Marzo
           
         .bottomline
           %span ¿Te avisamos?
-          = link_to "", "#", class: "avisenme", :"data-curso" => "condon"
+          = link_to "", "#", class: "avisenme", :"data-curso" => "cómo usar el condon"
 
 
     .grid_12.omega
@@ -64,25 +68,37 @@
         %h2 
           ¿Cómo funcionan las pastillas anticonceptivas?
         %p
-          Tienes idea de qué hacen? ¿Sabías que el primer mes de uso no funcionan?
+          ¿Tienes idea de qué hacen? ¿Sabías que el primer mes de uso no funcionan? ¿Sabes que pasa si te olvidas de tomar la pastilla por un día?
         %h3
+          Estos y muchos otros consejos en este video de 5 minutos.
+        %em
           Este video estará disponible el 15 de Abril
 
         .bottomline
           %span ¿Te avisamos?
-          = link_to "", "#", class: "avisenme", :"data-curso" => "condon"
+          = link_to "", "#", class: "avisenme", :"data-curso" => "cómo funcionan las pastillas"
 #slide4.slide{"data-slide" => "4"}
   .container.clearfix
     .grid_12
       %h1 Nuestra visión
+    .faq.inverted
+      .grid_8
+        .cont.green 
+          %h2 Cambiar el mundo
+          %p
+            Queremos cambiar la educación sexual de los jóvenes en el mundo para que sea 
+            %span.destacar útil, entretenida y accesible.
+      .grid_4.omega
+        .icon
+          %img{src: "assets/icon-group.png"}
     .faq
       .grid_4.icon
         %img{src: "assets/icon-education.png"}
       .grid_8.omega
         .cont
-          %h2 Educar
+          %h2 Prevenir educando
           %p
-            La primera relación sexual ocurre cada vez a más temprana edad. Reconociendo esto como una relidad, nos proponemos dos objetivos: 
+            La primera relación sexual ocurre cada vez a más temprana edad. Reconociendo esto como una realidad, nos proponemos dos objetivos: 
             %span.destacar acabar con los embarazos no deseados
             y
             %span.destacar prevenir las enfermedades de transmisión sexual.
@@ -119,12 +135,12 @@
 #slide5.slide{"data-slide" => "5", "data-stellar-background-ratio" => "0.5"}
   .container.clearfix
     .grid_12.omega
-      %h1 Equipo
+      %h1 Equipo y colaboradores
     .grid_4.member
-      = image_tag "mugshot-2.jpg"
-      %h3 [Educadora]
-      %p Docente
-      %p Universidad Adolfo Ibáñez
+      = image_tag "mugshot-rm.jpg"
+      %h3 Renata Moyano
+      %p Sicóloga Educacional
+      %p Universidad Católica de Chile
     .grid_4.member
       = image_tag "mugshot-1.jpg"
       %h3 [Doctora]
@@ -146,10 +162,10 @@
       %p Cientista Político, Economista
       %p Harvard University
     .grid_4.member.omega
-      = image_tag "mugshot-3.jpg"
-      %h3 [Sicólogo]
-      %p Sicólogo
-      %p Universidad Adolfo Ibáñez
+      = image_tag "mugshot-cp.jpg"
+      %h3 Cristina Pfeifer
+      %p Educadora Diferencial
+      %p Espacio Integración
 
 #slide-footer.slide{"data-slide" => "6", "data-stellar-background-ratio" => "0.5"}
   .container.footer.clearfix
@@ -162,7 +178,7 @@
         %li
           %small (c) 2014 Productora Rodríguez-Marambio Ltda.
     .grid_6.logo.omega
-      = image_tag "logo-2-1.png"
+      = image_tag "logo-3-1.png"
 
 #dialog-contacto{style: "display:none;"}
   %p.validateTips Déjanos tu teléfono o correo electrónico para contactarte
@@ -178,7 +194,7 @@
       %textarea.text.ui-widget-content.ui-corner-all{name: "comment", rows: 5}
 
 #dialog-avisenme{style: "display:none;"}
-  %p.validateTips Déjanos tu teléfono o correo electrónico para contactarte cuando el curso esté disponible
+  %p.validateTips Déjanos tu teléfono o correo electrónico para contactarte cuando el video esté disponible
   %form.dialog
     %fieldset
       %label{for: "name"} Nombre
@@ -242,12 +258,12 @@
 
     $("a.avisenme").click(function(e){
       loadFields("#dialog-avisenme");
-      defaultTip = "Déjanos tu teléfono o correo electrónico para contactarte cuando el curso esté disponible";
-      successTip = "Te avisaremos cuando el curso esté disponible";
+      defaultTip = "Déjanos tu teléfono o correo electrónico para contactarte cuando el video esté disponible";
+      successTip = "Te avisaremos cuando el video esté disponible";
       var evento = $(this).attr("data-curso");
       $("#dialog-avisenme").dialog({
         modal: true,
-        title: "Curso '" + evento + "'",
+        title: "Video '" + evento + "'",
         buttons: {
           "Guardar": function() {
             var valid = true;
