@@ -38,6 +38,8 @@ gem 'omniauth'
 gem 'omniauth-linkedin'
 gem 'linkedin'
 
+gem 'newrelic_rpm'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
