@@ -239,6 +239,17 @@ a.avisenme {
 	background-image: url('/assets/bn-avisenme.png');
 }
 
+a.vervideo {
+	height: 32px;
+	vertical-align: middle;
+	width: 128px;
+	display:inline-block;
+	background-repeat: no-repeat;
+	background-size: 128px 32px;
+	background-position: left top;
+	background-image: url('/assets/bn-vervideo.png');
+}
+
 /* Public show */
 
 #slide-event {
